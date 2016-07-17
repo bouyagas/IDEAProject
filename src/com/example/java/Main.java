@@ -20,6 +20,11 @@ public class Main {
         String my = new String(cahr);
         System.out.println(my);
 
+        char[] my2 = my.toCharArray();
+        for (char m : my2){
+            System.out.println(m);
+        }
+
     }
 
 }
