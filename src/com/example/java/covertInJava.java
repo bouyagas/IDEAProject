@@ -2,6 +2,7 @@ package com.example.java;
 
 
 import java.text.NumberFormat;
+import java.util.Scanner;
 
 /**
  * Created by mohamedbgassama on 7/18/16.
@@ -31,5 +32,27 @@ public class covertInJava {
                 .append("!");
         System.out.println(str);
 
+
+        // Scaner
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a value: ");
+        String in = sc.nextLine();
+        System.out.println("hello " + in);
+
+        str.delete(0, str.length());
+
+        for (int i = 0; i <  3; i++) {
+            in = sc.nextLine();
+            str.append(in = "\n");
+        }
+        System.out.println(str.toString());
+
     }
+
+
+   
+
+
+
 }
