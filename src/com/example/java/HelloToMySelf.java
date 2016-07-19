@@ -10,6 +10,14 @@ public class HelloToMySelf {
         System.out.println(te);
     System.out.println("Mohamed is the" + pt);
 
+        // my Array
+
+        int[] num = {1,3,4,5,6,6,7,7,0};
+
+        for(int m : num ){
+            System.out.println(m);
+        }
+
 
  }
 }
